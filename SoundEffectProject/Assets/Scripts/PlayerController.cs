@@ -25,8 +25,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
-            //prevent the player from double jumping
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround && !gameOver)
+            //prevent the player from double jumping and jumping after game over
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isOnGround = false;
@@ -43,9 +43,9 @@ public class PlayerController : MonoBehaviour
             isOnGround = true;
         }
         else if (collision.gameObject.CompareTag("Obstacle"))
-        {
-            gameOver = true;
-            Debug.Log("Game Over!");
-        }
+        { Debug.Log("Game Over!");
+			gameOver = true;
+		  playerAnim.SetBool("Death_b", true);
+		  playerAnim.SetInteger("DeathType_int", 1);}
     }
 }
