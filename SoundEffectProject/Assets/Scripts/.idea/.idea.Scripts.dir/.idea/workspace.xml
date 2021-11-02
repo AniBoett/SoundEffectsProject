@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bebd9ad-9da2-441b-9251-e596b50cc5fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Obstacle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Obstacle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepeatBackground.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RepeatBackground.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635742541371</updated>
       <workItem from="1635742569544" duration="3023000" />
-      <workItem from="1635824620661" duration="924000" />
+      <workItem from="1635824620661" duration="1594000" />
     </task>
     <servers />
   </component>
